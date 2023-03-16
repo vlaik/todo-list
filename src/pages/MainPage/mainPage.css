@@ -10,6 +10,14 @@
   height: 60px;
   padding: 20px;
 }
+.addTodo {
+  background: none;
+  border: none;
+  color: white;
+  font-size: 18px;
+  height: 30px;
+  cursor: pointer;
+}
 .mainContent {
   display: flex;
   flex-direction: column;
@@ -20,5 +28,24 @@
 }
 
 .mainInputContainer {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
   width: 100%;
+}
+
+.cardList {
+  display: flex;
+  gap: 30px;
+  flex-wrap: wrap;
+}
+
+.todoContainer {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  max-width: 300px;
+}
+.changeTodo {
+  font-size: 15px;
 }
