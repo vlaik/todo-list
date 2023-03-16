@@ -1,0 +1,19 @@
+.mainWrapper{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    height: 100vh;
+}
+.mainHeader{
+    height: 60px;
+    background-color: red;
+}
+.mainContent{
+    display: flex;
+    justify-content: center;
+}
+
+.mainInputContainer{
+    max-width: 300px;
+    width: 100%;
+}
