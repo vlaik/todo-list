@@ -1,0 +1,44 @@
+.cardWrapper {
+  width: 100%;
+  max-width: 300px;
+  display: flex;
+}
+
+.card {
+  width: 100%;
+  max-width: 300px;
+  cursor: pointer;
+  border-top-right-radius: 0;
+  border-bottom-right-radius: 0;
+}
+
+.navigation {
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+  background-color: white;
+  height: 100%;
+  width: 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.button {
+  cursor: pointer;
+  font-weight: 800;
+  background: none;
+  border: none;
+}
+
+.closeBtn {
+  color: red;
+}
+.resetBtn {
+  color: #235ef5;
+}
+
+.navigationItem {
+  display: flex;
+  position: absolute;
+  right: 0;
+}

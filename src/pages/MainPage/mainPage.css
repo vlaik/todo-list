@@ -1,19 +1,24 @@
-.mainWrapper{
-    display: flex;
-    flex-direction: column;
-    gap: 30px;
-    height: 100vh;
+.mainWrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  height: 100vh;
+  color: white;
+  background-color: #235ef5;
 }
-.mainHeader{
-    height: 60px;
-    background-color: red;
+.mainHeader {
+  height: 60px;
+  padding: 20px;
 }
-.mainContent{
-    display: flex;
-    justify-content: center;
+.mainContent {
+  display: flex;
+  flex-direction: column;
+  height: 80vh;
+  gap: 100px;
+  border-bottom: 1px solid black;
+  padding: 0 50px;
 }
 
-.mainInputContainer{
-    max-width: 300px;
-    width: 100%;
+.mainInputContainer {
+  width: 100%;
 }

@@ -1,3 +1,5 @@
-.input{
-    color: #235ef5;
+.input {
+  color: #235ef5;
+  width: 100%;
+  max-width: 300px;
 }
